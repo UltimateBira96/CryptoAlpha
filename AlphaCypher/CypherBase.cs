@@ -43,6 +43,16 @@ namespace AlphaCypher
 
 
 
+        //inizializzazione alfabeto
+        protected virtual void Intiliaze()
+          { 
+              for (int i = 0; i< 26; i++) 
+              { 
+                  char tmp = (char)(i + 65); 
+                  _alphabetList.Add(tmp); 
+             } 
+         }
+
 
 
 
@@ -83,6 +93,22 @@ namespace AlphaCypher
         //    ris = Encode(text.ToString(), cypher.ToString());  
         //     return ris;  
         // }
+
+
+            //ricerca lettera da posizione
+        private int ResearchLetterByPosition(char tmp)
+         { 
+             int resp = 0; 
+            for (int i = 0; i<_alphabetList.Count; i++) 
+             { 
+                 if (tmp == _alphabetList[i]) 
+                 { 
+                     resp = i; 
+                 } 
+             } 
+             return resp; 
+         } 
+
 
 
     }
