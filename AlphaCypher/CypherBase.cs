@@ -94,7 +94,7 @@ namespace AlphaCypher
         //     return ris;  
         // }
 
-
+            //
             //ricerca lettera da posizione
         private int ResearchLetterByPosition(char tmp)
          { 
