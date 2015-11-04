@@ -20,6 +20,7 @@ namespace WallF.BaseNEncodings
             return b.EncodeSize(length);
         }
 
+
         /// <summary>
         /// See <see cref="BaseEncoding.EncodeWithoutArgumentsValidation(byte[], int, int)"/>.
         /// </summary>

@@ -13,6 +13,7 @@ namespace AlphaCypher
             throw new NotImplementedException();
         }
 
+
         public string Encode(string text, string cypher)
         {
             throw new NotImplementedException();

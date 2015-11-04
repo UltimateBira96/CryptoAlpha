@@ -8,5 +8,9 @@ namespace AlphaCypher
 {
     class Caesar64
     {
+
+
+
+
     }
 }

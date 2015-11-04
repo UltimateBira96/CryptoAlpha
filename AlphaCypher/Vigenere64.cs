@@ -8,5 +8,11 @@ namespace AlphaCypher
 {
     class Vigenere64
     {
+
+
+
+
+
+
     }
 }

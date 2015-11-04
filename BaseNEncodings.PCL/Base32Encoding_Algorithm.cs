@@ -26,6 +26,7 @@ namespace WallF.BaseNEncodings
         protected override char[] EncodeWithoutArgumentsValidation(byte[] bytes, int offset, int length)
         {
             char[] r = new char[b.EncodeSize(length)];
+
             b.Encode(bytes, offset, length, r, 0, r.Length);
             return r;
         }

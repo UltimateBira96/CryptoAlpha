@@ -11,7 +11,8 @@ namespace WallF.BaseNEncodings
         /// </summary>
         public new const string STANDARD_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUV";
         /// <summary>
-        /// Standard Padding.
+       
+            /// Standard Padding.
         /// </summary>
         public new const char STANDARD_PADDING = '=';
         /// <summary>
